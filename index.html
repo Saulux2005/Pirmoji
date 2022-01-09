@@ -1,27 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">	
 <head>
 	<title>SUNNY Home page</title>
 	<link rel="icon" type="image/x-icon" href="images/sun.png">
 	<meta charset="UTF-8">
+	<style>
+		table, th, td {border:1px solid black;}
+	</style>
 </head>
 <body>
-	<!-- MY MENU -->
-	<h1>
-		<a href="index.html">
-			<img src="images/sun.png" alt="SUNNY" width="80">
-		</a>
-	</h1>
-	<p>&#128512</p>
-	<p>
-		<a href="links.html">Links</a>
-		<a href="gallery.html">Gallery</a>
-		<a href="bookmarks.html">Bookmarks</a>
-	</p>
-	<!-- The content of my page -->
-	<h1>Welcome to SUNNY!</h1>
-	<p>
-		© 2022 SUNNY. Visos teisės saugomos.
-	</p>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img src="images/sun.png" alt="SUNNY" width="80" />
+			</a>
+		</h1>
+		<p>&#128512;</p>
+	</header>
+	
+	<nav>
+		<p>
+			<a href="links.html">Links</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="bookmarks.html">Bookmarks</a>
+		</p>
+	</nav>
+	
+	<main>
+		<h1>Welcome to SUNNY!</h1>
+		<article>
+			<h3>Remontuojame :</h3>
+			<ul>
+				<li>Automobilius</li>			
+				<li>Motociklus</li>
+				<li>Lektuvus</li>			
+			</ul>
+			<h3>Atliekami darbai :</h3>
+			<ol>
+				<li>Pakabos remontas</li>
+				<li>Variklio remontas</li>
+				<li>Kebulo remontas ir dazymas</li>
+				<li>Diagnostika</li>
+			</ol>
+		</article>
+		<article>
+			<h3>Kontaktai :</h3>
+			<table style="width:100%">
+				<tr>
+					<th>Pareigos</th>
+					<th>Asmuo</th>
+					<th>Kontaktai</th>
+				</tr>
+				<tr>
+					<th>Direktorius</th>
+					<th>Direktorius Direktoriauskas</th>
+					<th>+370 000 00000</th>
+				</tr>
+				<tr>
+					<th>Buhalteris</th>
+					<th>Byhaltere Buhalteryte</th>
+					<th>+370 000 00001</th>
+				</tr>
+				<tr>
+					<th>Serviso meistras</th>
+					<th>Meistras Pameistrauskas</th>
+					<th>+370 000 00002</th>
+				</tr>
+				<tr>
+					<th>Detales</th>
+					<th>Detalius Detalaitis</th>
+					<th>+370 000 00003</th>
+				</tr>
+			</table>
+		</article>
+		<p><a href="#">I virsu</a></p>
+	</main>
+	
+	<footer>
+		<p>
+			© 2022 SUNNY. Visos teisės saugomos.
+		</p>
+	</footer>
 </body>
 </html>
